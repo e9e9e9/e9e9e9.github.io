@@ -1,9 +1,10 @@
 ---
 layout: posts
-categories: AI
-tag: [AI, Few shot learning, Deep learning]
 title: "AI - Few shot learning replication"
+categories: AI
+tags: [AI, Few shot learning, Deep learning]
 comments: true
+toc: true
 ---
 
 # AI - Few shot learning replication
