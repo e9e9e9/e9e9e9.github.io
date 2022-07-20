@@ -1,5 +1,6 @@
 ---
 layout: posts
+categories: AI
 title: "AI - Few shot learning replication"
 comments: true
 ---
