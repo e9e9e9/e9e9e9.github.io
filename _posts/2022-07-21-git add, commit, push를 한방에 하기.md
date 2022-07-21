@@ -33,7 +33,7 @@ alias git_acp='git status && git add --all && git commit -m "new" && git push or
 alias 적용
 
 ```bash
-. ~/.zshrc
+. ~/.zshrctes
 ```
 
 ---
@@ -43,3 +43,4 @@ alias 적용
 ```bash
 git_acp
 ```
+{% include video id="77Kj83nsshE" provider="youtube" %}
