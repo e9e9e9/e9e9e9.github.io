@@ -7,6 +7,9 @@ categories: AI
 tags: [AI, Few shot learning, Deep learning]
 comments: true
 toc: true
+author_profile: true
+sidebar:
+  nav: "docs"
 ---
 
 # AI - Few shot learning replication
