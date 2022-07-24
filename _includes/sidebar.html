@@ -14,15 +14,16 @@
     <!-- {% if page.sidebar.nav %}
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %} -->
-  {% endif %}
+    <ul class="author__urls">
+    <!-- <script>console.log({{ site.categories }});</script> -->
     {% for category in site.categories %}
-      {% if category[1].size == i %}
-        <li>
-          <a href="#{{ category[0] | slugify }}">
-             <span class="taxonomy__count">{{ category[0] }} ({{ i }})</span>
-          </a>
-        </li>
-      {% endif %}
+      <li>
+        <a href="/categories/#{{ category[0] | slugify }}">
+          <span class='label'>{{ category[0] }} ({{ category[1].size }})</span>
+        </a>
+      </li>
     {% endfor %}
+    </ul>
+  {% endif %}
   </div>
 {% endif %}
