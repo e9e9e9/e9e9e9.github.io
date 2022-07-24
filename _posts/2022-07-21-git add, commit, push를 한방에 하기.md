@@ -5,8 +5,7 @@ tags: [git, git add, git commit, git push]
 comments: true
 toc: true
 author_profile: true
-sidebar:
-  nav: "docs"
+sidebar: true
 ---
 ## Motivation
 
